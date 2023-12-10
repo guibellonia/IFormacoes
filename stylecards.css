@@ -1,0 +1,69 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(#7ee87e, #FFFFFF) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+   
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 1.2%;
+    width: 400px;
+    height: 200px;
+    margin-top: 50px;
+    transition: all 0.3s ease-out;
+   
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+  }
+   
+  .card p {
+    color: #008080;
+    font-size: 16px;
+  }
+   
+  .image {
+    float: right;
+    max-width: 64px;
+    max-height: 64px;
+  }
+
+  .Agro{
+    float: right;
+    max-width: 95px;
+    max-height: 95px;
+  }
+
+   
+  .log {
+    border-left: 3px solid rgb(150, 105, 180);
+  }
+   
+  .eletro {
+    border-left: 3px solid #4895ff;
+  }
+
+  .agro {
+    border-left: 3px solid #3bb54a;
+  }
+
+  .mine {
+    border-left: 3px solid brown;
+  }
+
+  @media screen and (max-width: 768px) {
+    .container {
+        width: 80%;
+    }
+}

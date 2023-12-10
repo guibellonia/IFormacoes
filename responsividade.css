@@ -1,0 +1,33 @@
+/* Estilo padrão para desktop */
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+
+/* Estilos para notebook */
+@media (min-width: 1024px) and (max-width: 1366px) {
+    .container {
+        width: 110%;
+        font-size: larger;
+    }
+}
+
+/* Estilos para tablet */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 80%;
+    }
+}
+
+/* Estilos para celular */
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    .container {
+        width: 100%;
+    }
+}
